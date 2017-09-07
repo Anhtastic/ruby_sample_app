@@ -1,0 +1,32 @@
+
+An error occurred while loading ./signup with valid information.
+Failure/Error: load_dependency(file) { result = super }
+
+LoadError:
+  cannot load such file -- /Users/new/Desktop/Ruby/ruby_sample_app/signup with valid information
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/activesupport-4.0.8/lib/active_support/dependencies.rb:223:in `load'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/activesupport-4.0.8/lib/active_support/dependencies.rb:223:in `block in load'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/activesupport-4.0.8/lib/active_support/dependencies.rb:214:in `load_dependency'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/activesupport-4.0.8/lib/active_support/dependencies.rb:223:in `load'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1922:in `load_spec_file_handling_errors'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1494:in `block in load_spec_files'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1492:in `each'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/configuration.rb:1492:in `load_spec_files'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:100:in `setup'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:86:in `run'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:71:in `run'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/lib/rspec/core/runner.rb:45:in `invoke'
+# /Users/new/.rvm/gems/ruby-2.2.7/gems/rspec-core-3.6.0/exe/rspec:4:in `<top (required)>'
+# /Users/new/.rvm/gems/ruby-2.2.7/bin/rspec:23:in `load'
+# /Users/new/.rvm/gems/ruby-2.2.7/bin/rspec:23:in `<main>'
+# /Users/new/.rvm/gems/ruby-2.2.7/bin/ruby_executable_hooks:15:in `eval'
+# /Users/new/.rvm/gems/ruby-2.2.7/bin/ruby_executable_hooks:15:in `<main>'
+# 
+#   Showing full backtrace because every line was filtered out.
+#   See docs for RSpec::Configuration#backtrace_exclusion_patterns and
+#   RSpec::Configuration#backtrace_inclusion_patterns for more information.
+
+
+Finished in 0.00028 seconds (files took 1.35 seconds to load)
+0 examples, 0 failures, 1 error occurred outside of examples
+
